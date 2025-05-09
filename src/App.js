@@ -1,7 +1,7 @@
-import TopAdbar from "./components/TopAdBar";
+import Navbar from "./pages/Navbar";
 
 function App() {
-  return <TopAdbar></TopAdbar>;
+  return <Navbar></Navbar>;
 }
 
 export default App;
