@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --animate-rtol: rtol 10s linear infinite;
+
+  @keyframes rtol {
+    100% {
+      transform: translateX(-2000px);
+    }
+    0% {
+      transform: translateX(2000px);
+    }
+  }
+}
