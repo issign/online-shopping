@@ -16,11 +16,11 @@ function Hero() {
   }, []);
 
   const renderedImages = images.map((img) => {
-    return <img src={img.src} alt={img.alt} key={img.id} />;
+    return <img src={img.src} alt={img.alt} key={img.id} className=""/>;
   });
 
   return (
-    <div className="h-full w-full flex">
+    <div className="w-full h-full pt-[9rem] flex">
       {renderedImages}
       <div>
         <IoIosArrowBack />
