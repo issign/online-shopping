@@ -5,9 +5,11 @@ import Hero from "./pages/Hero";
 function App() {
   return (
     <div>
-      <TopAdbar></TopAdbar>
-      <Navbar></Navbar>
-      <Hero></Hero>
+      <div className="w-screen h-screen">
+        <TopAdbar></TopAdbar>
+        <Navbar></Navbar>
+        <Hero></Hero>
+      </div>
     </div>
   );
 }
