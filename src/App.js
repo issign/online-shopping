@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <div className="w-screen h-screen">
+        <TopAdbar></TopAdbar>
         <Navbar></Navbar>
         <Hero></Hero>
       </div>
